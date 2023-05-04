@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Novcanik</string>
+    <string name="required">Ovo polje je obavezno</string>
+    <string name="lentherr">Sifra mora biti duga najmanje 5 karaktera</string>
+    <string name="wrongpass">Pogresna sifra</string>
+    <string name="login">Prijava</string>
+    <string name="state">Stanje</string>
+    <string name="add">Unos</string>
+    <string name="list">Lista</string>
+    <string name="profile">Profil</string>
+    <string name="account">Nalog</string>
+    <string name="income">Prihod</string>
+    <string name="expense">Rashod</string>
+    <string name="diff">Razlika</string>
+    <string name="sum">Suma</string>
+    <string name="input">Unos novog prihoda ili rashoda</string>
+    <string name="enterTitle">Naslov</string>
+    <string name="enterAmount">Kolicina</string>
+    <string name="enterDescription">Unesi opis</string>
+    <string name="addToList">Dodaj u listu</string>
+    <string name="savedData">Tvoj unos je sacuvan</string>
+    <string name="edit">Izmeni</string>
+    <string name="logoutbtn">Odjavi se</string>
+    <string name="name">Ime</string>
+    <string name="surname">Prezime</string>
+    <string name="bankname">Ime Banke</string>
+    <string name="podaciokorisniku">Podaci o korisniku</string>
+    <string name="logout">Odjavljujete se...</string>
+    <string name="unesiteime">Ime</string>
+    <string name="unesiteprezime">Prezime</string>
+    <string name="unesitebanku">Banka</string>
+    <string name="unesitesifru">Sifra</string>
+    <string name="walletSystem">Novacanik sistem</string>
+    <string name="information">Informacije u prihodu/rashodu</string>
+    <string name="title">Naslov</string>
+    <string name="amount">Kolicina</string>
+    <string name="description">Opis</string>
+    <string name="giveup">Odustani</string>
+</resources>

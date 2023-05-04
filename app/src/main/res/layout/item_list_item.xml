@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#d7dbd8">
+
+    <ImageView
+        android:id="@+id/money"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/money"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="121dp"
+            android:layout_height="34dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_width="61dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="36dp"
+            android:backgroundTint="#121111"
+            android:clickable="true"
+            android:src="@drawable/delete"
+            app:tint="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/money"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="121dp"
+            android:layout_height="34dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/money"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+
+        <ImageButton
+            android:id="@+id/edit"
+            android:layout_width="61dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="36dp"
+            android:clickable="true"
+            android:soundEffectsEnabled="true"
+            android:src="@drawable/edit"
+            app:layout_constraintStart_toEndOf="@+id/amount"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:tint="@color/white"
+            tools:ignore="MissingConstraints"
+            android:backgroundTint="#121111"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="217dp"></View>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

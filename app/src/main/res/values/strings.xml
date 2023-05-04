@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Wallet</string>
+
+
+    <string name="required">This field is required</string>
+    <string name="lentherr">Password must be at least 5 character long</string>
+    <string name="wrongpass">Wrong password</string>
+    <string name="login">Log in</string>
+
+
+    <string name="state">State</string>
+    <string name="add">Add</string>
+    <string name="list">List</string>
+    <string name="profile">Profile</string>
+
+
+    <string name="account">Acount</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="sum">Sum</string>
+    <string name="diff">diff</string>
+
+
+    <string name="input">Enter new income or expense</string>
+    <string name="enterTitle">Enter Title</string>
+    <string name="enterAmount">Enter Amount</string>
+    <string name="enterDescription">Enter description</string>
+    <string name="addToList">Add</string>
+    <string name="savedData">Your input is  saved</string>
+
+
+    <string name="title">Title</string>
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+
+    <string name="edit">Edit</string>
+    <string name="logoutbtn">Log out</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="bankname">Bank Name</string>
+    <string name="podaciokorisniku">User information</string>
+
+
+    <string name="unesiteime"> Name</string>
+    <string name="unesiteprezime"> Surname</string>
+    <string name="unesitebanku"> Bank Name</string>
+    <string name="unesitesifru"> Password</string>
+
+
+    <string name="walletSystem">Wallet System</string>
+
+
+    <string name="logout">You are logging out...</string>
+    <string name="information">Information about income/expense</string>
+    <string name="giveup">Give up</string>
+
+
+</resources>
