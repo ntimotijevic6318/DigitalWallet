@@ -1,4 +1,4 @@
-# ***Android-Wallet***
+# ***DigitalWallet***
 
 ## Digtalni novcanik sa mogućnošću snimanja glasova prilikom čuvanja priliva/odliva
 
